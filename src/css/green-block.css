@@ -1,0 +1,96 @@
+.green {
+  margin: 0 auto;
+
+  background-color: rgba(149, 225, 211, 1);
+
+  border-left: 1px solid #ffffff;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  color: rgba(255, 255, 255, 1);
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.green__num {
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+.green__text {
+  margin: 0;
+  padding: 0;
+}
+
+.green__item {
+  box-sizing: border-box;
+  width: 144px;
+  height: 124px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #ffffff;
+}
+
+.last__item {
+  border: none;
+}
+
+@media (min-width: 432px) and (max-width: 767px) {
+  .last__item {
+    border-bottom: 1px solid #ffffff;
+  }
+}
+@media (min-width: 768px) and (max-width: 792px) {
+  .antepenult__item {
+    border-right: 1px solid #ffffff;
+  }
+}
+@media (min-width: 768px) {
+  .green__item {
+    width: 198px;
+    height: 166px;
+  }
+
+  .green__item {
+    border-left: 1px solid #ffffff;
+    border-bottom: 0;
+  }
+
+  .last__item {
+    border-right: 1px solid #ffffff;
+  }
+}
+
+@media (min-width: 798px) and (max-width: 998px) {
+  .penult__item {
+    border-right: 1px solid #ffffff;
+  }
+}
+
+@media (min-width: 1300px) {
+  .green__item {
+    width: 234px;
+    height: 252px;
+  }
+
+  .green__num {
+    font-size: 64px;
+  }
+
+  .green__text {
+    font-size: 24px;
+  }
+}

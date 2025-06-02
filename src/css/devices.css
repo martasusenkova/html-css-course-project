@@ -1,0 +1,196 @@
+.devices {
+  background-image: url(../assets/images/images-phone/bcg_mountains.png);
+  /* background-image: url(../assets/images/images-desctop/devices/bcg_mountains.png); */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 44px 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.devices__ipad-inner-big {
+  display: none;
+}
+.devices::after {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+
+  background-color: hsla(0, 0%, 100%, 0.8);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.devices__title {
+  height: 82px;
+  font-size: 30px;
+  position: relative;
+  z-index: 3;
+}
+
+.devices__subtitle {
+  position: relative;
+  z-index: 3;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  height: 84px;
+  margin-bottom: 24px;
+}
+.devices__separator {
+  margin-bottom: 36px;
+  position: relative;
+
+  z-index: 3;
+}
+
+.devices__content {
+  position: relative;
+  z-index: 3;
+
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.devices__ipad {
+  width: 286px;
+  height: 218px;
+}
+.devices__ipad-inner {
+  position: absolute;
+  width: 274px;
+  height: 206px;
+}
+
+.devices__content-iphone {
+  width: fit-content;
+  height: fit-content;
+}
+.devices__img-phone {
+  position: absolute;
+  z-index: 3;
+  width: 84px;
+  height: 174px;
+  top: 98px;
+  right: 28px;
+}
+
+.devices__img-phone__inner {
+  border-radius: 12px 13px 12px;
+  width: 76px;
+  height: 164px;
+  position: absolute;
+  top: 100px;
+  right: 32px;
+}
+
+@media (min-width: 768px) {
+  .devices {
+    padding: 28px 116px 38px;
+
+    background-image: url(../assets/images/images-desctop/devices/bcg_mountains.png);
+  }
+
+  .devices__separator {
+    margin-bottom: 40px;
+  }
+  .devices__title {
+    height: 54px;
+  }
+
+  .devices__subtitle {
+    margin-bottom: 16px;
+    height: 54px;
+  }
+  .devices__ipad {
+    width: 460px;
+    height: 336px;
+    z-index: 2;
+  }
+
+  .devices__ipad-inner {
+    display: none;
+    /* width: 410px;
+    height: 310px; */
+    z-index: 1;
+  }
+
+  .devices__ipad-inner-big {
+    width: 410px;
+    height: 310px;
+    z-index: 1;
+    display: block;
+    position: absolute;
+  }
+
+  .devices__img-phone {
+    width: 134px;
+    height: 278px;
+    top: 134px;
+    right: -32px;
+  }
+
+  .devices__img-phone__inner {
+    width: 124px;
+    height: 264px;
+    z-index: 2;
+    top: 136px;
+    right: -28px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .devices {
+    padding: 42px 170px 56px;
+  }
+
+  .devices__separator {
+    margin-bottom: 60px;
+  }
+  .devices__title {
+    height: 80px;
+  }
+
+  .devices__subtitle {
+    margin-bottom: 24px;
+    height: 80px;
+  }
+
+  .devices__ipad {
+    width: 660px;
+    height: 494px;
+    z-index: 2;
+  }
+  .devices__ipad-inner-big {
+    width: 618px;
+    height: 452px;
+    z-index: 1;
+  }
+
+  .devices__img-phone {
+    width: 200px;
+    height: 410px;
+    top: 212px;
+    right: -32px;
+  }
+
+  .devices__img-phone__inner {
+    width: 180px;
+    height: 390px;
+    z-index: 2;
+    top: 216px;
+    right: -22px;
+  }
+}

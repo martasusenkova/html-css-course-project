@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kaushan Script";
+  src: url("../assets/fonts/Kaushan_Script/KaushanScript-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+body.noscroll {
+  position: fixed;
+  width: 100%;
+}
+
+section {
+  margin: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.navigation_item a {
+  all: unset;
+}
+
+.section-separator {
+  padding: 0;
+  margin: 0 auto;
+  background-color: rgba(243, 130, 129, 1);
+  height: 4px;
+  width: 134px;
+  border: none;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+
+  color: #2d3033;
+  line-height: 100%;
+
+  margin: 0 auto;
+  height: 68px;
+  font-family: "Kaushan Script", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  width: fit-content;
+  text-align: center;
+}
+
+.section-subtitle {
+  display: flex;
+  align-items: center;
+
+  margin: 0 auto 20px;
+  height: 55px;
+  line-height: 100%;
+  width: fit-content;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-text {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: hsla(0, 0%, 0%, 1);
+  padding: 0;
+  height: 130px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  .section-separator {
+    width: 148px;
+  }
+  .section-title {
+    height: 68px;
+  }
+  .section-subtitle {
+    height: 68px;
+  }
+  .section-text {
+    height: 100px;
+    max-width: 978px;
+  }
+  .swiper-pagination {
+    display: none;
+  }
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: none !important;
+}
+
+@media (min-width: 1300px) {
+  .section-title {
+    font-size: 30px;
+    height: 80px;
+  }
+  .section-subtitle {
+    font-size: 36px;
+    height: 80px;
+    margin-bottom: 24px;
+  }
+
+  .section-separator {
+    width: 170px;
+  }
+
+  .section-text {
+    height: 118px;
+    max-width: 1170px;
+    font-size: 18px;
+  }
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    content: none !important;
+  }
+}

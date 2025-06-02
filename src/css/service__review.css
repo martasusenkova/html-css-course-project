@@ -1,0 +1,244 @@
+.review {
+  background-color: hsla(0, 0%, 97%, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 14px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.review__svg {
+  display: none;
+}
+
+.review__text {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 14px;
+  color: hsla(197, 5%, 68%, 1);
+}
+
+.review__mini-separator {
+  width: 48px;
+  margin: 0 38px 0 0;
+}
+.review__signature {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  font-family: "Kaushan Script", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.review__person {
+  height: 36px;
+  padding: 0;
+  margin: 18px 0 0;
+}
+
+.swiper-pagination-bullet {
+  margin: 0 10px 28px !important;
+  z-index: 10;
+  width: 9px !important;
+  height: 9px !important;
+  opacity: 1 !important;
+  border: 1px solid hsla(197, 7%, 79%, 1) !important;
+  background: transparent !important;
+  box-sizing: border-box;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: hsla(197, 7%, 79%, 1) !important;
+}
+
+.swiper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.swiper__review {
+  margin: 0 auto;
+  background-color: #f8f8f8;
+}
+.review-two {
+  background-color: #ffffff;
+}
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-review {
+  flex-direction: column;
+  background-color: hsla(0, 0%, 100%, 1);
+}
+.review__img {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.work-review .review__signature {
+  margin-top: 14px;
+  height: 36px;
+}
+
+.work-review .review__person {
+  margin: 0;
+}
+@media (min-width: 884px) {
+  .swiper-button-prev {
+    width: 28px !important;
+    height: 28px !important;
+    background-image: url("data:image/svg+xml;utf8,<svg width='29' height='29' viewBox='0 0 29 29' fill='none' xmlns='http://www.w3.org/2000/svg'><line y1='-1' x2='15.0739' y2='-1' transform='matrix(-0.734803 -0.67828 -0.782424 0.622746 19.7668 24.7563)' stroke='%23C6CBCD' stroke-width='2'/><line y1='-1' x2='15.0739' y2='-1' transform='matrix(-0.734803 0.67828 -0.782424 -0.622746 19.7668 4.30762)' stroke='%23C6CBCD' stroke-width='2'/></svg>") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    cursor: pointer !important;
+    position: absolute !important;
+    z-index: 50 !important;
+    display: block !important;
+    padding-left: 32px !important;
+  }
+
+  .swiper-button-next {
+    width: 28px !important;
+    height: 28px !important;
+    background-image: url("data:image/svg+xml;utf8,<svg width='29' height='29' viewBox='0 0 29 29' fill='none' xmlns='http://www.w3.org/2000/svg'><line y1='-1' x2='15.0739' y2='-1' transform='matrix(0.734803 -0.67828 0.782424 0.622746 9.26758 24.7563)' stroke='%23C6CBCD' stroke-width='2'/><line y1='-1' x2='15.0739' y2='-1' transform='matrix(0.734803 0.67828 0.782424 -0.622746 9.26758 4.30762)' stroke='%23C6CBCD' stroke-width='2'/></svg>") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    cursor: pointer !important;
+    position: absolute !important;
+    z-index: 50 !important;
+    display: block !important;
+    margin-right: 30px !important;
+  }
+
+  .work-review {
+    flex-direction: row;
+  }
+  .swiper {
+    max-width: 1510px;
+
+    background-color: hsla(0, 0%, 97%, 1);
+  }
+  .review {
+    padding: 28px 0 28px 0;
+    column-gap: 37px;
+  }
+  .second-swiper .swiper-slide {
+    background-color: hsla(0, 0%, 100%, 1);
+  }
+  .review__svg {
+    display: flex;
+    width: 116px;
+    height: 116px;
+  }
+
+  .review__text {
+    font-size: 18px;
+    height: 66px;
+    width: 668px;
+  }
+  .review__content {
+    width: 668px;
+  }
+
+  .review__signature {
+    width: 656px;
+    margin-bottom: 0;
+  }
+  .review__person {
+    height: 36px;
+    padding: 0;
+    margin: 14px 0 0;
+    font-size: 24px;
+  }
+}
+@media (min-width: 1300px) {
+  .swiper-button-prev {
+    width: 42px !important;
+    height: 42px !important;
+    background-image: url("data:image/svg+xml;utf8,<svg width='29' height='29' viewBox='0 0 29 29' fill='none' xmlns='http://www.w3.org/2000/svg'><line y1='-1' x2='15.0739' y2='-1' transform='matrix(-0.734803 -0.67828 -0.782424 0.622746 19.7668 24.7563)' stroke='%23C6CBCD' stroke-width='2'/><line y1='-1' x2='15.0739' y2='-1' transform='matrix(-0.734803 0.67828 -0.782424 -0.622746 19.7668 4.30762)' stroke='%23C6CBCD' stroke-width='2'/></svg>") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    cursor: pointer !important;
+    position: absolute !important;
+    z-index: 50 !important;
+    display: block !important;
+    right: 180px !important;
+    margin-left: 50px !important;
+    padding: 0 !important;
+  }
+
+  .swiper-button-next {
+    width: 42px !important;
+    height: 42px !important;
+    background-image: url("data:image/svg+xml;utf8,<svg width='29' height='29' viewBox='0 0 29 29' fill='none' xmlns='http://www.w3.org/2000/svg'><line y1='-1' x2='15.0739' y2='-1' transform='matrix(0.734803 -0.67828 0.782424 0.622746 9.26758 24.7563)' stroke='%23C6CBCD' stroke-width='2'/><line y1='-1' x2='15.0739' y2='-1' transform='matrix(0.734803 0.67828 0.782424 -0.622746 9.26758 4.30762)' stroke='%23C6CBCD' stroke-width='2'/></svg>") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    cursor: pointer !important;
+    position: absolute !important;
+    z-index: 50 !important;
+    display: block !important;
+    margin-right: 50px !important;
+  }
+
+  .second-swiper .swiper-button-prev {
+    margin-left: 180px !important;
+  }
+  .second-swiper .swiper-button-next {
+    margin-right: 180px !important;
+  }
+
+  .review {
+    padding: 42px 0;
+    column-gap: 20px;
+    position: relative;
+  }
+
+  .review__svg {
+    width: 170px;
+    height: 170px;
+  }
+
+  .review__text {
+    font-size: 24px;
+    height: 96px;
+    width: 770px;
+  }
+  .review__content {
+    width: 770px;
+  }
+
+  .review__signature {
+    width: 770px;
+    margin-bottom: 0;
+  }
+
+  .review__mini-separator {
+    width: 70px;
+  }
+
+  .review__person {
+    height: 52px;
+    padding: 0;
+    margin: 20px 0 0;
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,97 @@
+.amazing {
+  padding: 30px 16px 58px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.amazing__separator {
+  margin-bottom: 66px;
+  width: 144px;
+}
+.amazing__container {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.amazing__item {
+  display: flex;
+  gap: 20px;
+  height: 95px;
+}
+
+.amazing__text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  color: rgba(45, 48, 51, 1);
+}
+.amazing__name {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  height: 44px;
+}
+.amazing__description {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .amazing__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 58px;
+    justify-content: center;
+  }
+
+  .amazing__item {
+    width: 314px;
+    height: 118px;
+  }
+
+  .amazing__svg {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .amazing {
+    padding: 42px 0 90px;
+    max-width: 1170px;
+  }
+  .amazing__container {
+    column-gap: 30px;
+    row-gap: 140px;
+  }
+
+  .amazing__name {
+    font-size: 24px;
+  }
+
+  .amazing__description {
+    font-size: 18px;
+  }
+
+  .amazing__svg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .section-separator.amazing__separator {
+    margin-bottom: 80px;
+  }
+}

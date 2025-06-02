@@ -1,0 +1,203 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 30px 0;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 28px;
+    margin-top: 36px;
+
+    @media (min-width: 768px) {
+      flex-wrap: wrap;
+      flex-direction: row;
+      gap: 20px;
+    }
+    @media (min-width: 1200px) {
+      gap: 30px;
+      margin-top: 42px;
+    }
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    &-media {
+      display: flex;
+      gap: 14px;
+      color: #2d3033;
+      font-family: "Raleway", sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      margin: 0;
+      align-items: center;
+
+      &-num {
+        width: 44px;
+      }
+    }
+    @media (min-width: 1200px) {
+      &-media {
+        gap: 16px;
+        font-size: 13px;
+
+        &-svg {
+          width: 32px;
+          height: 32px;
+        }
+        &-num {
+          width: 52px;
+        }
+      }
+    }
+
+    &-svg {
+      position: absolute;
+      width: 68px;
+      height: 68px;
+      top: 125px;
+      left: -1px;
+      bottom: 20px;
+      z-index: 5;
+
+      @media (min-width: 768px) {
+        left: -6px;
+      }
+      @media (min-width: 1200px) {
+        left: -14px;
+        width: 80px;
+        height: 80px;
+      }
+    }
+    &-title {
+      display: flex;
+      align-items: center;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      text-transform: uppercase;
+      height: 34px;
+      margin: 26px 0 0;
+      padding: 0;
+      @media (min-width: 1200px) {
+        margin: 30px 0 0;
+        height: 40px;
+      }
+    }
+    &-text {
+      font-family: "Raleway", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      vertical-align: middle;
+      width: 288px;
+      margin: 0 0 20px;
+      padding: 0;
+      color: #2d3033;
+      height: 100px;
+      display: flex;
+      align-items: center;
+
+      @media (min-width: 1200px) {
+        margin: 0 0 22px;
+        height: 120px;
+      }
+    }
+    &-img {
+      width: 288px;
+      height: 214px;
+
+      @media (min-width: 768px) {
+        width: 318px;
+      }
+      @media (min-width: 1200px) {
+        width: 370px;
+        height: 252px;
+      }
+    }
+  }
+}
+.blog__card-media-svg {
+  cursor: pointer;
+}
+.blog__card-media-svg:hover path {
+  fill: #2d3033;
+}
+.blog__banner {
+  position: relative;
+  padding: 42px 0;
+  background-image: url(../assets/images/images-phone/bcg_spot.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+
+  &-svg {
+    z-index: 5;
+  }
+
+  .blog__banner-subtitle {
+    color: #f38281;
+    height: 80px;
+    z-index: 5;
+    margin-bottom: 24px;
+  }
+  &-separator {
+    z-index: 5;
+  }
+
+  @media (min-width: 768px) {
+    padding: 28px 0;
+
+    background-image: url(../assets/images/images-desctop/bcg-spot.png);
+    background-position: center;
+    height: 156px;
+
+    &-subtitle {
+      height: 54px !important;
+      margin-bottom: 16px !important;
+    }
+    &-svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    &-separator {
+      width: 148px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    padding: 42px 0;
+    height: 230px;
+
+    &-subtitle {
+      height: 80px !important;
+      margin-bottom: 24px !important;
+    }
+    &-svg {
+      width: 42px;
+      height: 42px;
+    }
+    &-separator {
+      width: 170px;
+    }
+  }
+}
+
+.blog__banner::after {
+  content: " ";
+  inset: 0;
+  background-color: #ffffffe5;
+  position: absolute;
+}
