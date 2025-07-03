@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 💼 Course Project: Responsive One-Page Company Website
 
 📝 About the Project
@@ -171,3 +172,6 @@ package.json
    ```
    http://localhost:1234
    ```
+=======
+# TMS-2 project
+>>>>>>> 4980ae3 (update readme)
