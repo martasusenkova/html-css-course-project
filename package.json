@@ -1,0 +1,28 @@
+{
+  "name": "tms-2-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/react-projects9895116/tms-2-project.git"
+  },
+  "keywords": [],
+  "author": "Marta Susenkova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/react-projects9895116/tms-2-project/issues"
+  },
+  "homepage": "https://gitlab.com/react-projects9895116/tms-2-project#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.15.1",
+    "parcel": "^2.15.1",
+    "sass": "^1.89.0"
+  },
+  "dependencies": {
+    "swiper": "^11.2.6"
+  }
+}
