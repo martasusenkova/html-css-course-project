@@ -1,0 +1,75 @@
+.black-icons {
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+  grid-template-rows: 2fr 2fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  width: 100%;
+  height: fit-content;
+  padding: 30px 42px 20px;
+  display: grid;
+}
+
+.icon-two {
+  grid-column: 3;
+}
+
+.icon-three {
+  grid-column: span 3;
+}
+
+.icon-five {
+  grid-column: 3;
+}
+
+.icon-six {
+  grid-column: span 3;
+}
+
+@media (width >= 768px) {
+  .black-icons {
+    grid-template-rows: max-content;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 0;
+  }
+
+  .icon-two {
+    grid-column: 2;
+  }
+
+  .icon-three {
+    grid-area: 1 / 4;
+  }
+
+  .icon-five {
+    grid-row: 1;
+  }
+
+  .icon-six {
+    grid-area: 1 / 6;
+  }
+
+  .black-icons .last-icon {
+    padding: 0;
+  }
+}
+
+@media (width >= 1300px) {
+  .black-icons__wrap {
+    background-color: #f7f7f7;
+  }
+
+  .black-icons {
+    justify-content: center;
+    gap: 80px;
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 42px 170px;
+  }
+
+  .black-icon {
+    width: 127px;
+    height: 127px;
+  }
+}
+/*# sourceMappingURL=html-css-big-project.a74ef639.css.map */

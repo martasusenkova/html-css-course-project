@@ -1,0 +1,258 @@
+.review {
+  background-color: #f7f7f7;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  padding: 30px 14px;
+  display: flex;
+}
+
+.review__svg {
+  display: none;
+}
+
+.review__text {
+  text-align: left;
+  color: #a9afb1;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.review__mini-separator {
+  width: 48px;
+  margin: 0 38px 0 0;
+}
+
+.review__signature {
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+  font-family: Kaushan Script, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+}
+
+.review__person {
+  height: 36px;
+  margin: 18px 0 0;
+  padding: 0;
+}
+
+.swiper-pagination-bullet {
+  z-index: 10;
+  box-sizing: border-box;
+  opacity: 1 !important;
+  background: none !important;
+  border: 1px solid #c6cbcd !important;
+  width: 9px !important;
+  height: 9px !important;
+  margin: 0 10px 28px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #c6cbcd !important;
+}
+
+.swiper {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.swiper__review {
+  background-color: #f8f8f8;
+  margin: 0 auto;
+}
+
+.review-two {
+  background-color: #fff;
+}
+
+.swiper-slide {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.work-review {
+  background-color: #fff;
+  flex-direction: column;
+}
+
+.review__img {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.work-review .review__signature {
+  height: 36px;
+  margin-top: 14px;
+}
+
+.work-review .review__person {
+  margin: 0;
+}
+
+@media (width >= 884px) {
+  .swiper-button-prev {
+    cursor: pointer !important;
+    z-index: 50 !important;
+    background-image: url("data:image/svg+xml;utf8,<svg width='29' height='29' viewBox='0 0 29 29' fill='none' xmlns='http://www.w3.org/2000/svg'><line y1='-1' x2='15.0739' y2='-1' transform='matrix(-0.734803 -0.67828 -0.782424 0.622746 19.7668 24.7563)' stroke='%23C6CBCD' stroke-width='2'/><line y1='-1' x2='15.0739' y2='-1' transform='matrix(-0.734803 0.67828 -0.782424 -0.622746 19.7668 4.30762)' stroke='%23C6CBCD' stroke-width='2'/></svg>") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    width: 28px !important;
+    height: 28px !important;
+    padding-left: 32px !important;
+    display: block !important;
+    position: absolute !important;
+  }
+
+  .swiper-button-next {
+    cursor: pointer !important;
+    z-index: 50 !important;
+    background-image: url("data:image/svg+xml;utf8,<svg width='29' height='29' viewBox='0 0 29 29' fill='none' xmlns='http://www.w3.org/2000/svg'><line y1='-1' x2='15.0739' y2='-1' transform='matrix(0.734803 -0.67828 0.782424 0.622746 9.26758 24.7563)' stroke='%23C6CBCD' stroke-width='2'/><line y1='-1' x2='15.0739' y2='-1' transform='matrix(0.734803 0.67828 0.782424 -0.622746 9.26758 4.30762)' stroke='%23C6CBCD' stroke-width='2'/></svg>") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    width: 28px !important;
+    height: 28px !important;
+    margin-right: 30px !important;
+    display: block !important;
+    position: absolute !important;
+  }
+
+  .work-review {
+    flex-direction: row;
+  }
+
+  .swiper {
+    background-color: #f7f7f7;
+    max-width: 1510px;
+  }
+
+  .review {
+    column-gap: 37px;
+    padding: 28px 0;
+  }
+
+  .second-swiper .swiper-slide {
+    background-color: #fff;
+  }
+
+  .review__svg {
+    width: 116px;
+    height: 116px;
+    display: flex;
+  }
+
+  .review__text {
+    width: 668px;
+    height: 66px;
+    font-size: 18px;
+  }
+
+  .review__content {
+    width: 668px;
+  }
+
+  .review__signature {
+    width: 656px;
+    margin-bottom: 0;
+  }
+
+  .review__person {
+    height: 36px;
+    margin: 14px 0 0;
+    padding: 0;
+    font-size: 24px;
+  }
+}
+
+@media (width >= 1300px) {
+  .swiper-button-prev {
+    cursor: pointer !important;
+    z-index: 50 !important;
+    background-image: url("data:image/svg+xml;utf8,<svg width='29' height='29' viewBox='0 0 29 29' fill='none' xmlns='http://www.w3.org/2000/svg'><line y1='-1' x2='15.0739' y2='-1' transform='matrix(-0.734803 -0.67828 -0.782424 0.622746 19.7668 24.7563)' stroke='%23C6CBCD' stroke-width='2'/><line y1='-1' x2='15.0739' y2='-1' transform='matrix(-0.734803 0.67828 -0.782424 -0.622746 19.7668 4.30762)' stroke='%23C6CBCD' stroke-width='2'/></svg>") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    width: 42px !important;
+    height: 42px !important;
+    margin-left: 50px !important;
+    padding: 0 !important;
+    display: block !important;
+    position: absolute !important;
+    right: 180px !important;
+  }
+
+  .swiper-button-next {
+    cursor: pointer !important;
+    z-index: 50 !important;
+    background-image: url("data:image/svg+xml;utf8,<svg width='29' height='29' viewBox='0 0 29 29' fill='none' xmlns='http://www.w3.org/2000/svg'><line y1='-1' x2='15.0739' y2='-1' transform='matrix(0.734803 -0.67828 0.782424 0.622746 9.26758 24.7563)' stroke='%23C6CBCD' stroke-width='2'/><line y1='-1' x2='15.0739' y2='-1' transform='matrix(0.734803 0.67828 0.782424 -0.622746 9.26758 4.30762)' stroke='%23C6CBCD' stroke-width='2'/></svg>") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    width: 42px !important;
+    height: 42px !important;
+    margin-right: 50px !important;
+    display: block !important;
+    position: absolute !important;
+  }
+
+  .second-swiper .swiper-button-prev {
+    margin-left: 180px !important;
+  }
+
+  .second-swiper .swiper-button-next {
+    margin-right: 180px !important;
+  }
+
+  .review {
+    column-gap: 20px;
+    padding: 42px 0;
+    position: relative;
+  }
+
+  .review__svg {
+    width: 170px;
+    height: 170px;
+  }
+
+  .review__text {
+    width: 770px;
+    height: 96px;
+    font-size: 24px;
+  }
+
+  .review__content {
+    width: 770px;
+  }
+
+  .review__signature {
+    width: 770px;
+    margin-bottom: 0;
+  }
+
+  .review__mini-separator {
+    width: 70px;
+  }
+
+  .review__person {
+    height: 52px;
+    margin: 20px 0 0;
+    padding: 0;
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=html-css-big-project.7f475fdf.css.map */
