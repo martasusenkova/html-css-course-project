@@ -4,19 +4,21 @@
   "description": "",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/react-projects9895116/tms-2-project.git"
+    "url": "https://github.com/martasusenkova/html-css-course-project/"
   },
   "keywords": [],
   "author": "Marta Susenkova",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/react-projects9895116/tms-2-project/issues"
+    "url": "https://github.com/martasusenkova/html-css-course-project/issues"
   },
-  "homepage": "https://gitlab.com/react-projects9895116/tms-2-project#readme",
+  "homepage": "https://martasusenkova.github.io/html-css-course-project/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.15.1",
     "parcel": "^2.15.1",
