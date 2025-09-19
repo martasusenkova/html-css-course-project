@@ -1,4 +1,3 @@
-HEAD
 💼 Course Project: Responsive One-Page Company Website
 
 📝 About the Project
