@@ -1,22 +1,14 @@
 {
-  "name": "tms-2-project",
+  "name": "html-css-big-project",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "predeploy": "npm run build",
-    "deploy": "main -d dist"
+    "build": "parcel build index.html --dist-dir docs",
+    "deploy": "git add docs && git commit -m 'deploy' && git push"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/martasusenkova/html-css-course-project/"
-  },
-  "keywords": [],
-  "author": "Marta Susenkova",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/martasusenkova/html-css-course-project/issues"
   },
   "homepage": "https://martasusenkova.github.io/html-css-course-project",
   "devDependencies": {
