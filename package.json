@@ -6,7 +6,7 @@
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "main -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/martasusenkova/html-css-course-project/issues"
   },
-  "homepage": "https://martasusenkova.github.io/html-css-course-project/",
+  "homepage": "https://martasusenkova.github.io/html-css-course-project",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.15.1",
     "parcel": "^2.16.0",
