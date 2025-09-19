@@ -1,7 +1,3 @@
-import "../css/blog.scss";
-import "../css/footer.scss";
-import "../css/clients.scss";
-
 const burger = document.querySelector(".burger");
 const header = document.querySelector(".header");
 
